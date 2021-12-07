@@ -15,15 +15,18 @@ test('toEqual', () => {
 });
 
 test('not.toBe', () => {
-  const heroes = sortedHealth([
+  const heroes = [
     { name: 'bowman', health: 10 },
     { name: 'swordsman', health: 100 },
     { name: 'magician', health: 80 },
-  ]);
+  ];
   const result = [
-    { name: 'Bowman', health: 100 },
+    { name: 'bowman', health: 100 },
     { name: 'swordsman', health: 80 },
     { name: 'magician', health: 10 },
   ];
-  expect(heroes).not.toBe(result);
+
+  const received = sortedHealth(heroes);
+
+  expect(received).not.toBe(result);
 });
