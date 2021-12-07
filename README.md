@@ -1,3 +1,3 @@
-## Чистые функции
+## Matchers
 ---
-[![Build status](https://ci.appveyor.com/api/projects/status/w2qc2xe2hhc8b2jo?svg=true)](https://ci.appveyor.com/project/Pustoletov/pure-function)
+[![Build status](https://ci.appveyor.com/api/projects/status/m0fkjp4knxaquc3s?svg=true)](https://ci.appveyor.com/project/Pustoletov/matchers)
