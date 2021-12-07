@@ -1,9 +1,9 @@
 import sortedHealth from './health';
 
 const arr = [
-  { name: 'bowman', health: 81 },
-  { name: 'swordsman', health: 13 },
-  { name: 'magician', health: 67 },
+  { name: 'мечник', health: 10 },
+  { name: 'маг', health: 100 },
+  { name: 'лучник', health: 80 },
 ];
 
 sortedHealth(arr);
